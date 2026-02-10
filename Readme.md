@@ -37,6 +37,7 @@
     <img alt="Cite" src="https://img.shields.io/badge/Cite-BibTeX-blue" />
   </a>
 
+
   <!-- License -->
   <a href="#license">
     <img alt="License" src="https://img.shields.io/badge/License-Research%20Use-lightgrey" />
@@ -156,8 +157,9 @@ InspecSafe-V1 defines four discrete safety levels:
 The dataset is organized around **inspection instances** and is designed to support efficient access to (i) RGB keyframes and annotations, (ii) synchronized multimodal recordings, and (iii) auxiliary parameter files.
 
 <p align="center">
-<img width="585" height="508" alt="截屏2026-02-10 22 42 35" src="https://github.com/user-attachments/assets/e7f41180-edd3-4543-bbf2-8198bff0e731" />
+  <img width="900" alt="截屏2026-02-10 22 42 35" src="https://github.com/user-attachments/assets/e7f41180-edd3-4543-bbf2-8198bff0e731" />
 </p>
+
 
 
 A high-level structure described in the paper includes:
