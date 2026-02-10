@@ -1,7 +1,25 @@
-# InspecSafe-V1  
-**A Multimodal Benchmark for Safety Assessment in Real-World Industrial Inspection**
+
+# InspecSafe-V1: A Multimodal Benchmark for Safety Assessment in Real-World Industrial Inspection
+
+<p align="center">
+  <a href="https://huggingface.co/datasets/Tetrabot2026/InspecSafe-V1">
+    <img alt="Hugging Face Dataset" src="https://img.shields.io/badge/Dataset-HuggingFace-yellow?logo=huggingface&logoColor=black" />
+  </a>
+  <a href="#citation">
+    <img alt="Citation" src="https://img.shields.io/badge/Cite-BibTeX-blue" />
+  </a>
+  <a href="#license">
+    <img alt="License" src="https://img.shields.io/badge/License-Research%20Use-lightgrey" />
+  </a>
+  <img alt="Modalities" src="https://img.shields.io/badge/Modalities-RGB%20%7C%20Thermal%20%7C%20Audio%20%7C%20PointCloud%20%7C%20Sensors-informational" />
+</p>
 
 InspecSafe-V1 is a real-world multimodal benchmark designed for **safety assessment in industrial inspection scenarios**. The dataset is collected from routine inspection missions performed by deployed inspection robots across multiple industrial sites. It targets **vision–language safety reasoning** (scene understanding + safety-level judgement) under challenging real-world conditions (occlusion, glare/reflection, cluttered backgrounds, illumination variation, noise, etc.).
+
+<p align="center">
+  <img width="886" height="553" alt="截屏2026-02-10 22 38 33" src="https://github.com/user-attachments/assets/fe60deb8-da6a-4a97-9e1d-21fbc2d31ba5" />
+</p>
+
 
 ---
 
@@ -33,6 +51,11 @@ InspecSafe-V1 includes five representative industrial environments:
 4. Oil & gas / petrochemical plants  
 5. Coal conveyor trestles / coal transfer areas
 
+<p align="center">
+<img width="890" height="573" alt="截屏2026-02-10 22 40 23" src="https://github.com/user-attachments/assets/3622f4d4-00e0-410f-94e9-aa347143aaf8" />
+</p>
+
+
 ---
 
 ## Robot Platforms
@@ -41,6 +64,12 @@ Two categories of inspection robots are involved:
 
 - **Wheeled inspection robots**
 - **Rail-mounted / suspended-rail inspection robots**
+
+<p align="center">
+<img width="911" height="313" alt="截屏2026-02-10 22 39 22" src="https://github.com/user-attachments/assets/750ad1e7-cf7a-40f7-b2df-aec8b8f5e816" />
+</p>
+
+
 
 ---
 
@@ -68,6 +97,11 @@ Each instance includes a **text file** containing:
 
 > **Labeling rule:** if multiple hazards appear in one image, the final safety level is determined by the **most severe** hazard. If **no safety factor** is present, the label is **Level IV**.
 
+<p align="center">
+<img width="876" height="491" alt="截屏2026-02-10 22 41 34" src="https://github.com/user-attachments/assets/5cf2efa2-9be6-4f3b-8e87-ae090828b030" />
+</p>
+
+
 ### 3) Quality Control (QC)
 The dataset construction process includes **multi-round independent verification** for both:
 - pixel-level visual annotations, and
@@ -91,6 +125,11 @@ InspecSafe-V1 defines four discrete safety levels:
 ## Dataset Organization
 
 The dataset is organized around **inspection instances** and is designed to support efficient access to (i) RGB keyframes and annotations, (ii) synchronized multimodal recordings, and (iii) auxiliary parameter files.
+
+<p align="center">
+<img width="585" height="508" alt="截屏2026-02-10 22 42 35" src="https://github.com/user-attachments/assets/e7f41180-edd3-4543-bbf2-8198bff0e731" />
+</p>
+
 
 A high-level structure described in the paper includes:
 
@@ -126,14 +165,6 @@ InspecSafe-V1 is designed for evaluating **vision–language models (VLMs)** on 
 
 To mitigate information leakage from highly similar adjacent frames within the same inspection point, the split is built with **uniform intra-point sampling** from RGB videos.
 
-### Evaluation Metrics
-
-- **Accuracy (Acc)**: safety-level classification accuracy  
-- **Semantic Similarity (SemSim)**: cosine similarity between embeddings of
-  - generated description vs. human description,  
-  using a **fixed text encoder** (the paper reports using **BGE-M3**).
-
----
 
 ## Recommended Research Tasks
 
