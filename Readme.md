@@ -199,4 +199,4 @@ For questions, issue reports, or collaboration requests, please use the dataset 
 - reproduction steps
 
 ### Acknowledgement
-This dataset is developed by researchers and collaborators from institutions including Tsinghua University and TetroBot. The public release is hosted on Hugging Face.
+This dataset is developed by researchers and collaborators from institutions including Department of Automation and the Institute for Embodied Intelligence and Robotics of Tsinghua University and TetraBOT Intelligence Co., Ltd. The public release is hosted on Hugging Face.
