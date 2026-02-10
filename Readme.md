@@ -2,16 +2,45 @@
 # InspecSafe-V1: A Multimodal Benchmark for Safety Assessment in Real-World Industrial Inspection
 
 <p align="center">
+  <!-- Dataset -->
   <a href="https://huggingface.co/datasets/Tetrabot2026/InspecSafe-V1">
     <img alt="Hugging Face Dataset" src="https://img.shields.io/badge/Dataset-HuggingFace-yellow?logo=huggingface&logoColor=black" />
   </a>
-  <a href="#citation">
-    <img alt="Citation" src="https://img.shields.io/badge/Cite-BibTeX-blue" />
+
+  <!-- Paper -->
+  <a href="https://arxiv.org/abs/2601.21173">
+    <img alt="arXiv" src="https://img.shields.io/badge/Paper-arXiv%202601.21173-b31b1b?logo=arxiv&logoColor=white" />
   </a>
+
+  <!-- Version -->
+  <img alt="Version" src="https://img.shields.io/badge/Version-v1.0-blue" />
+
+  <!-- Scale -->
+  <img alt="Instances" src="https://img.shields.io/badge/Instances-5013-informational" />
+  <img alt="Inspection Points" src="https://img.shields.io/badge/Inspection%20Points-2239-informational" />
+  <img alt="Robots" src="https://img.shields.io/badge/Robots-41-informational" />
+  <img alt="RGB Classes" src="https://img.shields.io/badge/RGB%20Classes-234-informational" />
+
+  <!-- Modalities -->
+  <img alt="Modalities" src="https://img.shields.io/badge/Modalities-RGB%20%7C%20Thermal%20%7C%20Audio%20%7C%20PointCloud%20%7C%20Sensors%20%7C%20Language-informational" />
+
+  <!-- Tasks -->
+  <img alt="Tasks" src="https://img.shields.io/badge/Tasks-Safety%20Assessment%20%7C%20Segmentation%20%7C%20VLM%20Reasoning-brightgreen" />
+
+  <!-- Repo status 
+  <a href="https://github.com/liuzy0708/InspecSafe/stargazers">
+    <img alt="Stars" src="https://img.shields.io/github/stars/liuzy0708/InspecSafe?style=social" />
+  </a>
+  -->
+  <!-- Citation -->
+  <a href="#citation">
+    <img alt="Cite" src="https://img.shields.io/badge/Cite-BibTeX-blue" />
+  </a>
+
+  <!-- License -->
   <a href="#license">
     <img alt="License" src="https://img.shields.io/badge/License-Research%20Use-lightgrey" />
   </a>
-  <img alt="Modalities" src="https://img.shields.io/badge/Modalities-RGB%20%7C%20Thermal%20%7C%20Audio%20%7C%20PointCloud%20%7C%20Sensors-informational" />
 </p>
 
 InspecSafe-V1 is a real-world multimodal benchmark designed for **safety assessment in industrial inspection scenarios**. The dataset is collected from routine inspection missions performed by deployed inspection robots across multiple industrial sites. It targets **vision–language safety reasoning** (scene understanding + safety-level judgement) under challenging real-world conditions (occlusion, glare/reflection, cluttered backgrounds, illumination variation, noise, etc.).
