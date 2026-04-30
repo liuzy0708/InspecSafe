@@ -212,14 +212,6 @@ InspecSafe-V1 can support, but is not limited to:
 
 ## Data Access
 
-The dataset is publicly available on **:contentReference[oaicite:0]{index=0}**:
-
-- Dataset page: <https://huggingface.co/datasets/Tetrabot2026/InspecSafe-V1>
-
-The release provides raw multimodal data, pixel-level annotations, scene descriptions, safety labels, and supporting resources (e.g., metadata/index files and parameter files).
-
-## Data Access
-
 The dataset is publicly available on **Hugging Face**:
 
 - Dataset page: <https://huggingface.co/datasets/Tetrabot2026/InspecSafe-V1>
