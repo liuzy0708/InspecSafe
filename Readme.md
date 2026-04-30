@@ -13,7 +13,7 @@
   </a>
 
   <!-- Version -->
-  <img alt="Version" src="https://img.shields.io/badge/Version-v1.1-blue" />
+  <img alt="Version" src="https://img.shields.io/badge/Version-v1.0.1-blue" />
 
   <!-- Scale -->
   <img alt="Instances" src="https://img.shields.io/badge/Instances-5013-informational" />
